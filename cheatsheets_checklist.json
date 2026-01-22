@@ -1,0 +1,2065 @@
+{
+  "metadata": {
+    "created": "2026-01-21",
+    "updated": "2026-01-21",
+    "description": "Master checklist of all cheat sheets to be created",
+    "total_subjects": 150,
+    "completed_count": 2,
+    "pending_count": 148
+  },
+  "existing_cheatsheets": [
+    "Arch Linux",
+    "Proxmox",
+    "Docker",
+    "i3"
+  ],
+  "checklist": [
+    {
+      "id": 1,
+      "category": "Monitoring & Performance",
+      "name": "Nagios",
+      "checked": true,
+      "completed_date": "2026-01-21",
+      "priority": "medium",
+      "tags": ["monitoring", "server", "alerting"],
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "category": "Monitoring & Performance",
+      "name": "Prometheus",
+      "checked": true,
+      "completed_date": "2026-01-21",
+      "priority": "medium",
+      "tags": ["monitoring", "time-series", "metrics"],
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "category": "Monitoring & Performance",
+      "name": "Grafana",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["monitoring", "visualization", "dashboard"],
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "category": "Monitoring & Performance",
+      "name": "Zabbix",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["monitoring", "enterprise", "network"],
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "category": "Monitoring & Performance",
+      "name": "htop",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["monitoring", "process", "terminal"],
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "category": "Monitoring & Performance",
+      "name": "btop",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["monitoring", "process", "terminal"],
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "category": "Monitoring & Performance",
+      "name": "nmon",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["monitoring", "performance", "AIX"],
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "category": "Monitoring & Performance",
+      "name": "top",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["monitoring", "process", "basic"],
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "category": "Monitoring & Performance",
+      "name": "netdata",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["monitoring", "real-time", "cloud"],
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "category": "Monitoring & Performance",
+      "name": "glances",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["monitoring", "cross-platform", "terminal"],
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "category": "Automation & Configuration Management",
+      "name": "Ansible",
+      "checked": false,
+      "completed_date": null,
+      "priority": "high",
+      "tags": ["automation", "configuration", "agentless"],
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "category": "Automation & Configuration Management",
+      "name": "Puppet",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["automation", "configuration", "IaC"],
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "category": "Automation & Configuration Management",
+      "name": "Chef",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["automation", "configuration", "IaC"],
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "category": "Automation & Configuration Management",
+      "name": "SaltStack",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["automation", "configuration", "event-driven"],
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "category": "Automation & Configuration Management",
+      "name": "Terraform",
+      "checked": false,
+      "completed_date": null,
+      "priority": "high",
+      "tags": ["IaC", "infrastructure", "cloud"],
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "category": "Automation & Configuration Management",
+      "name": "AWX",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["automation", "Ansible", "web UI"],
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "category": "Automation & Configuration Management",
+      "name": "Cloud-Init",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["cloud", "initialization", "VM"],
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "category": "Automation & Configuration Management",
+      "name": "Packer",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["images", "infrastructure", "automation"],
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "category": "Networking & Security",
+      "name": "Nmap",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["network", "security", "scanning"],
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "category": "Networking & Security",
+      "name": "Wireshark",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["network", "protocol", "analysis"],
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "category": "Networking & Security",
+      "name": "Netcat (nc)",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["network", "utility", "debugging"],
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "category": "Networking & Security",
+      "name": "Fail2ban",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["security", "intrusion", "prevention"],
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "category": "Networking & Security",
+      "name": "SELinux",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["security", "MAC", "kernel"],
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "category": "Networking & Security",
+      "name": "AppArmor",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["security", "MAC", "kernel"],
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "category": "Networking & Security",
+      "name": "UFW",
+      "checked": false,
+      "completed_date": null,
+      "priority": "high",
+      "tags": ["firewall", "security", "iptables"],
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "category": "Networking & Security",
+      "name": "iptables",
+      "checked": false,
+      "completed_date": null,
+      "priority": "high",
+      "tags": ["firewall", "security", "networking"],
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "category": "Networking & Security",
+      "name": "nftables",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["firewall", "security", "networking"],
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "category": "Networking & Security",
+      "name": "OpenVPN",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["VPN", "security", "tunneling"],
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "category": "Networking & Security",
+      "name": "WireGuard",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["VPN", "security", "modern"],
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "category": "Networking & Security",
+      "name": "sshuttle",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["VPN", "SSH", "tunnel"],
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "category": "Networking & Security",
+      "name": "Curl",
+      "checked": false,
+      "completed_date": null,
+      "priority": "high",
+      "tags": ["network", "HTTP", "client"],
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "category": "Networking & Security",
+      "name": "Wget",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["network", "download", "HTTP"],
+      "notes": ""
+    },
+    {
+      "id": 33,
+      "category": "Networking & Security",
+      "name": "socat",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["network", "proxy", "socket"],
+      "notes": ""
+    },
+    {
+      "id": 34,
+      "category": "Containers & Orchestration",
+      "name": "Kubernetes",
+      "checked": false,
+      "completed_date": null,
+      "priority": "high",
+      "tags": ["container", "orchestration", "K8s"],
+      "notes": ""
+    },
+    {
+      "id": 35,
+      "category": "Containers & Orchestration",
+      "name": "kubectl",
+      "checked": false,
+      "completed_date": null,
+      "priority": "high",
+      "tags": ["Kubernetes", "CLI", "container"],
+      "notes": ""
+    },
+    {
+      "id": 36,
+      "category": "Containers & Orchestration",
+      "name": "Helm",
+      "checked": false,
+      "completed_date": null,
+      "priority": "high",
+      "tags": ["Kubernetes", "charts", "package"],
+      "notes": ""
+    },
+    {
+      "id": 37,
+      "category": "Containers & Orchestration",
+      "name": "Docker Compose",
+      "checked": false,
+      "completed_date": null,
+      "priority": "high",
+      "tags": ["Docker", "containers", "orchestration"],
+      "notes": ""
+    },
+    {
+      "id": 38,
+      "category": "Containers & Orchestration",
+      "name": "Podman",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["containers", "Docker", "rootless"],
+      "notes": ""
+    },
+    {
+      "id": 39,
+      "category": "Containers & Orchestration",
+      "name": "Buildah",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["containers", "build", "Dockerfile"],
+      "notes": ""
+    },
+    {
+      "id": 40,
+      "category": "Containers & Orchestration",
+      "name": "Skopeo",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["containers", "images", "registry"],
+      "notes": ""
+    },
+    {
+      "id": 41,
+      "category": "Containers & Orchestration",
+      "name": "crictl",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["containers", "CRI", "runtime"],
+      "notes": ""
+    },
+    {
+      "id": 42,
+      "category": "Containers & Orchestration",
+      "name": "kind",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["Kubernetes", "local", "testing"],
+      "notes": ""
+    },
+    {
+      "id": 43,
+      "category": "Containers & Orchestration",
+      "name": "minikube",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["Kubernetes", "local", "testing"],
+      "notes": ""
+    },
+    {
+      "id": 44,
+      "category": "Systemd & Services",
+      "name": "systemctl",
+      "checked": false,
+      "completed_date": null,
+      "priority": "high",
+      "tags": ["systemd", "services", "init"],
+      "notes": ""
+    },
+    {
+      "id": 45,
+      "category": "Systemd & Services",
+      "name": "journalctl",
+      "checked": false,
+      "completed_date": null,
+      "priority": "high",
+      "tags": ["journald", "logs", "systemd"],
+      "notes": ""
+    },
+    {
+      "id": 46,
+      "category": "Systemd & Services",
+      "name": "hostnamectl",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["systemd", "hostname", "system"],
+      "notes": ""
+    },
+    {
+      "id": 47,
+      "category": "Systemd & Services",
+      "name": "timedatectl",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["systemd", "time", "NTP"],
+      "notes": ""
+    },
+    {
+      "id": 48,
+      "category": "Systemd & Services",
+      "name": "localectl",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["systemd", "locale", "keyboard"],
+      "notes": ""
+    },
+    {
+      "id": 49,
+      "category": "Systemd & Services",
+      "name": "loginctl",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["systemd", "login", "sessions"],
+      "notes": ""
+    },
+    {
+      "id": 50,
+      "category": "Systemd & Services",
+      "name": "busctl",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["systemd", "D-Bus", "IPC"],
+      "notes": ""
+    },
+    {
+      "id": 51,
+      "category": "Systemd & Services",
+      "name": "systemd-analyze",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["systemd", "performance", "boot"],
+      "notes": ""
+    },
+    {
+      "id": 52,
+      "category": "Systemd & Services",
+      "name": "systemd-run",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["systemd", "transient", "scope"],
+      "notes": ""
+    },
+    {
+      "id": 53,
+      "category": "Window Managers & Desktop",
+      "name": "Polybar",
+      "checked": false,
+      "completed_date": null,
+      "priority": "high",
+      "tags": ["statusbar", "i3", "window-manager"],
+      "notes": ""
+    },
+    {
+      "id": 54,
+      "category": "Window Managers & Desktop",
+      "name": "Rofi",
+      "checked": false,
+      "completed_date": null,
+      "priority": "high",
+      "tags": ["app-launcher", "dmenu", "i3"],
+      "notes": ""
+    },
+    {
+      "id": 55,
+      "category": "Window Managers & Desktop",
+      "name": "dmenu",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["app-launcher", "dynamic", "menu"],
+      "notes": ""
+    },
+    {
+      "id": 56,
+      "category": "Window Managers & Desktop",
+      "name": "Alacritty",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["terminal", "GPU", "i3"],
+      "notes": ""
+    },
+    {
+      "id": 57,
+      "category": "Window Managers & Desktop",
+      "name": "Kitty",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["terminal", "GPU", "cross-platform"],
+      "notes": ""
+    },
+    {
+      "id": 58,
+      "category": "Window Managers & Desktop",
+      "name": "Starship",
+      "checked": false,
+      "completed_date": null,
+      "priority": "high",
+      "tags": ["prompt", "shell", "cross-shell"],
+      "notes": ""
+    },
+    {
+      "id": 59,
+      "category": "Window Managers & Desktop",
+      "name": "Oh My Zsh",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["shell", "zsh", "framework"],
+      "notes": ""
+    },
+    {
+      "id": 60,
+      "category": "Window Managers & Desktop",
+      "name": "Neofetch",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["system-info", "CLI", "fetch"],
+      "notes": ""
+    },
+    {
+      "id": 61,
+      "category": "Window Managers & Desktop",
+      "name": "Screenfetch",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["system-info", "CLI", "fetch"],
+      "notes": ""
+    },
+    {
+      "id": 62,
+      "category": "Window Managers & Desktop",
+      "name": "XFCE4",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["desktop", "GUI", "xfce"],
+      "notes": ""
+    },
+    {
+      "id": 63,
+      "category": "Window Managers & Desktop",
+      "name": "KDE Plasma",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["desktop", "GUI", "KDE"],
+      "notes": ""
+    },
+    {
+      "id": 64,
+      "category": "Window Managers & Desktop",
+      "name": "Bspwm",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["window-manager", "tiling", "X11"],
+      "notes": ""
+    },
+    {
+      "id": 65,
+      "category": "Window Managers & Desktop",
+      "name": "Sway",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["window-manager", "Wayland", "i3-compatible"],
+      "notes": ""
+    },
+    {
+      "id": 66,
+      "category": "Terminal Tools",
+      "name": "Byobu",
+      "checked": false,
+      "completed_date": null,
+      "priority": "high",
+      "tags": ["terminal", "multiplexer", "screen"],
+      "notes": ""
+    },
+    {
+      "id": 67,
+      "category": "Terminal Tools",
+      "name": "tmux",
+      "checked": false,
+      "completed_date": null,
+      "priority": "high",
+      "tags": ["terminal", "multiplexer", "session"],
+      "notes": ""
+    },
+    {
+      "id": 68,
+      "category": "Terminal Tools",
+      "name": "GNU Screen",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["terminal", "multiplexer", "screen"],
+      "notes": ""
+    },
+    {
+      "id": 69,
+      "category": "Terminal Tools",
+      "name": "Zsh",
+      "checked": false,
+      "completed_date": null,
+      "priority": "high",
+      "tags": ["shell", "terminal", "interactive"],
+      "notes": ""
+    },
+    {
+      "id": 70,
+      "category": "Terminal Tools",
+      "name": "Fish",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["shell", "terminal", "interactive"],
+      "notes": ""
+    },
+    {
+      "id": 71,
+      "category": "Terminal Tools",
+      "name": "fzf",
+      "checked": false,
+      "completed_date": null,
+      "priority": "high",
+      "tags": ["fuzzy", "search", "interactive"],
+      "notes": ""
+    },
+    {
+      "id": 72,
+      "category": "Terminal Tools",
+      "name": "ripgrep (rg)",
+      "checked": false,
+      "completed_date": null,
+      "priority": "high",
+      "tags": ["search", "grep", "regex"],
+      "notes": ""
+    },
+    {
+      "id": 73,
+      "category": "Terminal Tools",
+      "name": "fd",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["find", "search", "alternative"],
+      "notes": ""
+    },
+    {
+      "id": 74,
+      "category": "Terminal Tools",
+      "name": "bat",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["cat", "highlight", "pager"],
+      "notes": ""
+    },
+    {
+      "id": 75,
+      "category": "Terminal Tools",
+      "name": "exa",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["ls", "list", "color"],
+      "notes": ""
+    },
+    {
+      "id": 76,
+      "category": "Terminal Tools",
+      "name": "zoxide",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["cd", "fuzzy", "smart"],
+      "notes": ""
+    },
+    {
+      "id": 77,
+      "category": "Terminal Tools",
+      "name": "eza",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["ls", "list", "modern"],
+      "notes": ""
+    },
+    {
+      "id": 78,
+      "category": "Terminal Tools",
+      "name": "jq",
+      "checked": false,
+      "completed_date": null,
+      "priority": "high",
+      "tags": ["JSON", "process", "query"],
+      "notes": ""
+    },
+    {
+      "id": 79,
+      "category": "Terminal Tools",
+      "name": "yq",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["YAML", "process", "query"],
+      "notes": ""
+    },
+    {
+      "id": 80,
+      "category": "Package Management",
+      "name": "apt",
+      "checked": false,
+      "completed_date": null,
+      "priority": "high",
+      "tags": ["Debian", "Ubuntu", "package"],
+      "notes": ""
+    },
+    {
+      "id": 81,
+      "category": "Package Management",
+      "name": "dnf",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["RedHat", "Fedora", "package"],
+      "notes": ""
+    },
+    {
+      "id": 82,
+      "category": "Package Management",
+      "name": "yum",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["RedHat", "CentOS", "package"],
+      "notes": ""
+    },
+    {
+      "id": 83,
+      "category": "Package Management",
+      "name": "yay",
+      "checked": false,
+      "completed_date": null,
+      "priority": "high",
+      "tags": ["AUR", "Arch", "package"],
+      "notes": ""
+    },
+    {
+      "id": 84,
+      "category": "Package Management",
+      "name": "paru",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["AUR", "Arch", "package"],
+      "notes": ""
+    },
+    {
+      "id": 85,
+      "category": "Package Management",
+      "name": "snap",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["snapcraft", "package", "sandboxed"],
+      "notes": ""
+    },
+    {
+      "id": 86,
+      "category": "Package Management",
+      "name": "flatpak",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["sandbox", "package", "application"],
+      "notes": ""
+    },
+    {
+      "id": 87,
+      "category": "Package Management",
+      "name": "pacman",
+      "checked": false,
+      "completed_date": null,
+      "priority": "high",
+      "tags": ["Arch", "Linux", "package"],
+      "notes": ""
+    },
+    {
+      "id": 88,
+      "category": "File Operations",
+      "name": "rsync",
+      "checked": false,
+      "completed_date": null,
+      "priority": "high",
+      "tags": ["sync", "backup", "transfer"],
+      "notes": ""
+    },
+    {
+      "id": 89,
+      "category": "File Operations",
+      "name": "scp",
+      "checked": false,
+      "completed_date": null,
+      "priority": "high",
+      "tags": ["SSH", "transfer", "remote"],
+      "notes": ""
+    },
+    {
+      "id": 90,
+      "category": "File Operations",
+      "name": "tar",
+      "checked": false,
+      "completed_date": null,
+      "priority": "high",
+      "tags": ["archive", "compression", "backup"],
+      "notes": ""
+    },
+    {
+      "id": 91,
+      "category": "File Operations",
+      "name": "gzip",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["compression", "gzip", "archive"],
+      "notes": ""
+    },
+    {
+      "id": 92,
+      "category": "File Operations",
+      "name": "zip",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["archive", "compression", "zip"],
+      "notes": ""
+    },
+    {
+      "id": 93,
+      "category": "File Operations",
+      "name": "7z",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["archive", "compression", "7zip"],
+      "notes": ""
+    },
+    {
+      "id": 94,
+      "category": "File Operations",
+      "name": "find",
+      "checked": false,
+      "completed_date": null,
+      "priority": "high",
+      "tags": ["search", "files", "filesystem"],
+      "notes": ""
+    },
+    {
+      "id": 95,
+      "category": "File Operations",
+      "name": "xargs",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["execute", "arguments", "pipeline"],
+      "notes": ""
+    },
+    {
+      "id": 96,
+      "category": "File Operations",
+      "name": "dd",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["clone", "disk", "convert"],
+      "notes": ""
+    },
+    {
+      "id": 97,
+      "category": "File Operations",
+      "name": "rsnapshot",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["backup", "snapshot", "rsync"],
+      "notes": ""
+    },
+    {
+      "id": 98,
+      "category": "Text Processing",
+      "name": "grep",
+      "checked": false,
+      "completed_date": null,
+      "priority": "high",
+      "tags": ["search", "text", "regex"],
+      "notes": ""
+    },
+    {
+      "id": 99,
+      "category": "Text Processing",
+      "name": "sed",
+      "checked": false,
+      "completed_date": null,
+      "priority": "high",
+      "tags": ["text", "editor", "stream"],
+      "notes": ""
+    },
+    {
+      "id": 100,
+      "category": "Text Processing",
+      "name": "awk",
+      "checked": false,
+      "completed_date": null,
+      "priority": "high",
+      "tags": ["text", "processing", "scripting"],
+      "notes": ""
+    },
+    {
+      "id": 101,
+      "category": "Text Processing",
+      "name": "jq",
+      "checked": false,
+      "completed_date": null,
+      "priority": "high",
+      "tags": ["JSON", "process", "query"],
+      "notes": ""
+    },
+    {
+      "id": 102,
+      "category": "Text Processing",
+      "name": "yq",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["YAML", "process", "query"],
+      "notes": ""
+    },
+    {
+      "id": 103,
+      "category": "Text Processing",
+      "name": "cut",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["text", "columns", "extract"],
+      "notes": ""
+    },
+    {
+      "id": 104,
+      "category": "Text Processing",
+      "name": "sort",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["text", "sort", "order"],
+      "notes": ""
+    },
+    {
+      "id": 105,
+      "category": "Text Processing",
+      "name": "uniq",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["text", "duplicate", "unique"],
+      "notes": ""
+    },
+    {
+      "id": 106,
+      "category": "Text Processing",
+      "name": "tr",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["text", "translate", "convert"],
+      "notes": ""
+    },
+    {
+      "id": 107,
+      "category": "Text Processing",
+      "name": "column",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["text", "table", "format"],
+      "notes": ""
+    },
+    {
+      "id": 108,
+      "category": "Text Processing",
+      "name": "paste",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["text", "merge", "columns"],
+      "notes": ""
+    },
+    {
+      "id": 109,
+      "category": "Text Processing",
+      "name": "join",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["text", "relational", "merge"],
+      "notes": ""
+    },
+    {
+      "id": 110,
+      "category": "Debugging & Analysis",
+      "name": "strace",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["debug", "system-calls", "trace"],
+      "notes": ""
+    },
+    {
+      "id": 111,
+      "category": "Debugging & Analysis",
+      "name": "ltrace",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["debug", "library", "trace"],
+      "notes": ""
+    },
+    {
+      "id": 112,
+      "category": "Debugging & Analysis",
+      "name": "gdb",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["debug", "debugger", "C"],
+      "notes": ""
+    },
+    {
+      "id": 113,
+      "category": "Debugging & Analysis",
+      "name": "perf",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["performance", "profiling", "trace"],
+      "notes": ""
+    },
+    {
+      "id": 114,
+      "category": "Debugging & Analysis",
+      "name": "lsof",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["files", "ports", "processes"],
+      "notes": ""
+    },
+    {
+      "id": 115,
+      "category": "Debugging & Analysis",
+      "name": "ldd",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["libraries", "dependencies", "shared"],
+      "notes": ""
+    },
+    {
+      "id": 116,
+      "category": "Debugging & Analysis",
+      "name": "nm",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["symbols", "binary", "object"],
+      "notes": ""
+    },
+    {
+      "id": 117,
+      "category": "Debugging & Analysis",
+      "name": "objdump",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["binary", "disassemble", "object"],
+      "notes": ""
+    },
+    {
+      "id": 118,
+      "category": "Debugging & Analysis",
+      "name": "hexdump",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["hex", "binary", "dump"],
+      "notes": ""
+    },
+    {
+      "id": 119,
+      "category": "Debugging & Analysis",
+      "name": "xxd",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["hex", "binary", "edit"],
+      "notes": ""
+    },
+    {
+      "id": 120,
+      "category": "Virtualization",
+      "name": "KVM",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["virtualization", "kernel", "hypervisor"],
+      "notes": ""
+    },
+    {
+      "id": 121,
+      "category": "Virtualization",
+      "name": "QEMU",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["virtualization", "emulator", "hypervisor"],
+      "notes": ""
+    },
+    {
+      "id": 122,
+      "category": "Virtualization",
+      "name": "libvirt",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["virtualization", "API", "KVM"],
+      "notes": ""
+    },
+    {
+      "id": 123,
+      "category": "Virtualization",
+      "name": "virt-manager",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["virtualization", "GUI", "KVM"],
+      "notes": ""
+    },
+    {
+      "id": 124,
+      "category": "Virtualization",
+      "name": "virsh",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["virtualization", "CLI", "libvirt"],
+      "notes": ""
+    },
+    {
+      "id": 125,
+      "category": "Virtualization",
+      "name": "Vagrant",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["virtualization", "development", "boxes"],
+      "notes": ""
+    },
+    {
+      "id": 126,
+      "category": "Cloud & Infrastructure",
+      "name": "AWS CLI",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["AWS", "cloud", "CLI"],
+      "notes": ""
+    },
+    {
+      "id": 127,
+      "category": "Cloud & Infrastructure",
+      "name": "Packer",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["images", "infrastructure", "automation"],
+      "notes": ""
+    },
+    {
+      "id": 128,
+      "category": "Cloud & Infrastructure",
+      "name": "Cloud-Init",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["cloud", "initialization", "VM"],
+      "notes": ""
+    },
+    {
+      "id": 129,
+      "category": "Database Management",
+      "name": "psql",
+      "checked": false,
+      "completed_date": null,
+      "priority": "high",
+      "tags": ["PostgreSQL", "database", "CLI"],
+      "notes": ""
+    },
+    {
+      "id": 130,
+      "category": "Database Management",
+      "name": "mysql/mariadb",
+      "checked": false,
+      "completed_date": null,
+      "priority": "high",
+      "tags": ["MySQL", "MariaDB", "database"],
+      "notes": ""
+    },
+    {
+      "id": 131,
+      "category": "Database Management",
+      "name": "mongosh",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["MongoDB", "NoSQL", "database"],
+      "notes": ""
+    },
+    {
+      "id": 132,
+      "category": "Database Management",
+      "name": "redis-cli",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["Redis", "cache", "database"],
+      "notes": ""
+    },
+    {
+      "id": 133,
+      "category": "Database Management",
+      "name": "sqlite3",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["SQLite", "database", "embedded"],
+      "notes": ""
+    },
+    {
+      "id": 134,
+      "category": "Web Servers",
+      "name": "Nginx",
+      "checked": false,
+      "completed_date": null,
+      "priority": "high",
+      "tags": ["web-server", "reverse-proxy", "load-balancer"],
+      "notes": ""
+    },
+    {
+      "id": 135,
+      "category": "Web Servers",
+      "name": "Apache",
+      "checked": false,
+      "completed_date": null,
+      "priority": "high",
+      "tags": ["web-server", "httpd", "module"],
+      "notes": ""
+    },
+    {
+      "id": 136,
+      "category": "Web Servers",
+      "name": "Caddy",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["web-server", "HTTPS", "automatic"],
+      "notes": ""
+    },
+    {
+      "id": 137,
+      "category": "Web Servers",
+      "name": "Traefik",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["reverse-proxy", "microservices", "Kubernetes"],
+      "notes": ""
+    },
+    {
+      "id": 138,
+      "category": "Logging & Analysis",
+      "name": "Elasticsearch",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["search", "logging", "ELK"],
+      "notes": ""
+    },
+    {
+      "id": 139,
+      "category": "Logging & Analysis",
+      "name": "Logstash",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["logging", "pipeline", "ELK"],
+      "notes": ""
+    },
+    {
+      "id": 140,
+      "category": "Logging & Analysis",
+      "name": "Kibana",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["visualization", "dashboard", "ELK"],
+      "notes": ""
+    },
+    {
+      "id": 141,
+      "category": "CI/CD",
+      "name": "Jenkins",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["CI", "CD", "automation"],
+      "notes": ""
+    },
+    {
+      "id": 142,
+      "category": "CI/CD",
+      "name": "GitLab CI",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["CI", "pipeline", "GitLab"],
+      "notes": ""
+    },
+    {
+      "id": 143,
+      "category": "CI/CD",
+      "name": "GitHub Actions",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["CI", "workflow", "GitHub"],
+      "notes": ""
+    },
+    {
+      "id": 144,
+      "category": "CI/CD",
+      "name": "drone",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["CI", "pipeline", "container"],
+      "notes": ""
+    },
+    {
+      "id": 145,
+      "category": "DNS & Network",
+      "name": "dig",
+      "checked": false,
+      "completed_date": null,
+      "priority": "high",
+      "tags": ["DNS", "query", "lookup"],
+      "notes": ""
+    },
+    {
+      "id": 146,
+      "category": "DNS & Network",
+      "name": "nslookup",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["DNS", "query", "lookup"],
+      "notes": ""
+    },
+    {
+      "id": 147,
+      "category": "DNS & Network",
+      "name": "host",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["DNS", "lookup", "simple"],
+      "notes": ""
+    },
+    {
+      "id": 148,
+      "category": "DNS & Network",
+      "name": "whois",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["domain", "registration", "lookup"],
+      "notes": ""
+    },
+    {
+      "id": 149,
+      "category": "DNS & Network",
+      "name": "mtr",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["network", "traceroute", "ping"],
+      "notes": ""
+    },
+    {
+      "id": 150,
+      "category": "DNS & Network",
+      "name": "traceroute",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["network", "trace", "route"],
+      "notes": ""
+    },
+    {
+      "id": 151,
+      "category": "DNS & Network",
+      "name": "tracepath",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["network", "trace", "path"],
+      "notes": ""
+    },
+    {
+      "id": 152,
+      "category": "SSH & Remote",
+      "name": "ssh",
+      "checked": false,
+      "completed_date": null,
+      "priority": "high",
+      "tags": ["remote", "SSH", "secure"],
+      "notes": ""
+    },
+    {
+      "id": 153,
+      "category": "SSH & Remote",
+      "name": "sftp",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["SSH", "FTP", "transfer"],
+      "notes": ""
+    },
+    {
+      "id": 154,
+      "category": "SSH & Remote",
+      "name": "ssh-keygen",
+      "checked": false,
+      "completed_date": null,
+      "priority": "high",
+      "tags": ["SSH", "keys", "authentication"],
+      "notes": ""
+    },
+    {
+      "id": 155,
+      "category": "SSH & Remote",
+      "name": "ssh-copy-id",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["SSH", "keys", "deployment"],
+      "notes": ""
+    },
+    {
+      "id": 156,
+      "category": "SSH & Remote",
+      "name": "mosh",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["SSH", "mobile", "roaming"],
+      "notes": ""
+    },
+    {
+      "id": 157,
+      "category": "SSH & Remote",
+      "name": "autossh",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["SSH", "tunnel", "auto-reconnect"],
+      "notes": ""
+    },
+    {
+      "id": 158,
+      "category": "Backup & Recovery",
+      "name": "borgbackup",
+      "checked": false,
+      "completed_date": null,
+      "priority": "high",
+      "tags": ["backup", "deduplication", "archive"],
+      "notes": ""
+    },
+    {
+      "id": 159,
+      "category": "Backup & Recovery",
+      "name": "restic",
+      "checked": false,
+      "completed_date": null,
+      "priority": "high",
+      "tags": ["backup", "encrypted", "fast"],
+      "notes": ""
+    },
+    {
+      "id": 160,
+      "category": "Backup & Recovery",
+      "name": "duplicati",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["backup", "GUI", "cloud"],
+      "notes": ""
+    },
+    {
+      "id": 161,
+      "category": "Backup & Recovery",
+      "name": "timeshift",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["snapshot", "system", "restore"],
+      "notes": ""
+    },
+    {
+      "id": 162,
+      "category": "Backup & Recovery",
+      "name": "duply",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["backup", "duplicity", "wrapper"],
+      "notes": ""
+    },
+    {
+      "id": 163,
+      "category": "Utilities & Management",
+      "name": "Git",
+      "checked": false,
+      "completed_date": null,
+      "priority": "high",
+      "tags": ["version-control", "SCM", "code"],
+      "notes": ""
+    },
+    {
+      "id": 164,
+      "category": "Utilities & Management",
+      "name": "Webmin",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["web-ui", "admin", "server"],
+      "notes": ""
+    },
+    {
+      "id": 165,
+      "category": "Utilities & Management",
+      "name": "Cockpit",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["web-ui", "admin", "server"],
+      "notes": ""
+    },
+    {
+      "id": 166,
+      "category": "Utilities & Management",
+      "name": "LVM",
+      "checked": false,
+      "completed_date": null,
+      "priority": "high",
+      "tags": ["storage", "volumes", "logical"],
+      "notes": ""
+    },
+    {
+      "id": 167,
+      "category": "Utilities & Management",
+      "name": "mdadm",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["RAID", "storage", "md"],
+      "notes": ""
+    },
+    {
+      "id": 168,
+      "category": "Utilities & Management",
+      "name": "ZFS",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["filesystem", "storage", "advanced"],
+      "notes": ""
+    },
+    {
+      "id": 169,
+      "category": "Utilities & Management",
+      "name": "Btrfs",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["filesystem", "storage", "snapshot"],
+      "notes": ""
+    },
+    {
+      "id": 170,
+      "category": "Utilities & Management",
+      "name": "ncdu",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["disk-usage", "NCurses", "analyze"],
+      "notes": ""
+    },
+    {
+      "id": 171,
+      "category": "Utilities & Management",
+      "name": "du",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["disk-usage", "directory", "analyze"],
+      "notes": ""
+    },
+    {
+      "id": 172,
+      "category": "Utilities & Management",
+      "name": "df",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["disk-free", "filesystem", "analyze"],
+      "notes": ""
+    },
+    {
+      "id": 173,
+      "category": "Utilities & Management",
+      "name": "lsblk",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["block-devices", "storage", "list"],
+      "notes": ""
+    },
+    {
+      "id": 174,
+      "category": "Utilities & Management",
+      "name": "blkid",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["block-ids", "UUID", "label"],
+      "notes": ""
+    },
+    {
+      "id": 175,
+      "category": "Utilities & Management",
+      "name": "parted",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["partition", "GPT", "MBR"],
+      "notes": ""
+    },
+    {
+      "id": 176,
+      "category": "Utilities & Management",
+      "name": "fdisk",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["partition", "disk", "MBR"],
+      "notes": ""
+    },
+    {
+      "id": 177,
+      "category": "Utilities & Management",
+      "name": "sgdisk",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["GPT", "partition", "sgdisk"],
+      "notes": ""
+    },
+    {
+      "id": 178,
+      "category": "Utilities & Management",
+      "name": "cryptsetup",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["LUKS", "encryption", "dm-crypt"],
+      "notes": ""
+    },
+    {
+      "id": 179,
+      "category": "Utilities & Management",
+      "name": "resize2fs",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["filesystem", "resize", "ext4"],
+      "notes": ""
+    },
+    {
+      "id": 180,
+      "category": "Utilities & Management",
+      "name": "xfs_info",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["XFS", "filesystem", "info"],
+      "notes": ""
+    },
+    {
+      "id": 181,
+      "category": "Utilities & Management",
+      "name": "smartctl",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["SMART", "disk", "health"],
+      "notes": ""
+    },
+    {
+      "id": 182,
+      "category": "Utilities & Management",
+      "name": "hdparm",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["hard-disk", "performance", "parameters"],
+      "notes": ""
+    },
+    {
+      "id": 183,
+      "category": "Utilities & Management",
+      "name": "inxi",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["system-info", "hardware", "report"],
+      "notes": ""
+    },
+    {
+      "id": 184,
+      "category": "Utilities & Management",
+      "name": "lsusb",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["USB", "devices", "list"],
+      "notes": ""
+    },
+    {
+      "id": 185,
+      "category": "Utilities & Management",
+      "name": "lspci",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["PCI", "devices", "list"],
+      "notes": ""
+    },
+    {
+      "id": 186,
+      "category": "Utilities & Management",
+      "name": "lsmod",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["kernel", "modules", "list"],
+      "notes": ""
+    },
+    {
+      "id": 187,
+      "category": "Utilities & Management",
+      "name": "modprobe",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["kernel", "modules", "load"],
+      "notes": ""
+    },
+    {
+      "id": 188,
+      "category": "Utilities & Management",
+      "name": "sysctl",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["kernel", "parameters", "runtime"],
+      "notes": ""
+    },
+    {
+      "id": 189,
+      "category": "Utilities & Management",
+      "name": "udev",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["device", "manager", "hotplug"],
+      "notes": ""
+    },
+    {
+      "id": 190,
+      "category": "Utilities & Management",
+      "name": "dmesg",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["kernel", "messages", "log"],
+      "notes": ""
+    }
+  ],
+  "categories": [
+    {
+      "name": "Monitoring & Performance",
+      "total": 10,
+      "completed": 0
+    },
+    {
+      "name": "Automation & Configuration Management",
+      "total": 8,
+      "completed": 0
+    },
+    {
+      "name": "Networking & Security",
+      "total": 17,
+      "completed": 0
+    },
+    {
+      "name": "Containers & Orchestration",
+      "total": 10,
+      "completed": 0
+    },
+    {
+      "name": "Systemd & Services",
+      "total": 8,
+      "completed": 0
+    },
+    {
+      "name": "Window Managers & Desktop",
+      "total": 12,
+      "completed": 0
+    },
+    {
+      "name": "Terminal Tools",
+      "total": 14,
+      "completed": 0
+    },
+    {
+      "name": "Package Management",
+      "total": 8,
+      "completed": 0
+    },
+    {
+      "name": "File Operations",
+      "total": 10,
+      "completed": 0
+    },
+    {
+      "name": "Text Processing",
+      "total": 12,
+      "completed": 0
+    },
+    {
+      "name": "Debugging & Analysis",
+      "total": 10,
+      "completed": 0
+    },
+    {
+      "name": "Virtualization",
+      "total": 6,
+      "completed": 0
+    },
+    {
+      "name": "Cloud & Infrastructure",
+      "total": 3,
+      "completed": 0
+    },
+    {
+      "name": "Database Management",
+      "total": 5,
+      "completed": 0
+    },
+    {
+      "name": "Web Servers",
+      "total": 4,
+      "completed": 0
+    },
+    {
+      "name": "Logging & Analysis",
+      "total": 3,
+      "completed": 0
+    },
+    {
+      "id": 141,
+      "category": "CI/CD",
+      "name": "Jenkins",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["CI", "CD", "automation"],
+      "notes": ""
+    },
+    {
+      "id": 142,
+      "category": "CI/CD",
+      "name": "GitLab CI",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["CI", "pipeline", "GitLab"],
+      "notes": ""
+    },
+    {
+      "id": 143,
+      "category": "CI/CD",
+      "name": "GitHub Actions",
+      "checked": false,
+      "completed_date": null,
+      "priority": "medium",
+      "tags": ["CI", "workflow", "GitHub"],
+      "notes": ""
+    },
+    {
+      "id": 144,
+      "category": "CI/CD",
+      "name": "drone",
+      "checked": false,
+      "completed_date": null,
+      "priority": "low",
+      "tags": ["CI", "pipeline", "container"],
+      "notes": ""
+    },
+    {
+      "name": "CI/CD",
+      "total": 4,
+      "completed": 0
+    },
+    {
+      "name": "DNS & Network",
+      "total": 7,
+      "completed": 0
+    },
+    {
+      "name": "SSH & Remote",
+      "total": 6,
+      "completed": 0
+    },
+    {
+      "name": "Backup & Recovery",
+      "total": 5,
+      "completed": 0
+    },
+    {
+      "name": "Utilities & Management",
+      "total": 27,
+      "completed": 0
+    }
+  ]
+}
